@@ -1,0 +1,20 @@
+把資料丟到github上
+git init
+
+git add .
+
+git commit -m "Initial commit"
+
+git remote add origin GitHub Repositories URL
+
+git push -u origin master
+
+更新資料
+git pull origin master
+
+git add . //這是全部文件 add github.txt 這樣是單一文件
+
+git commit -m "Update files"
+
+git push origin master
+
