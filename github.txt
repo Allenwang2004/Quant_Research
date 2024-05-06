@@ -1,20 +1,47 @@
 把資料丟到github上
+
 git init
 
 git add .
 
 git commit -m "Initial commit"
 
+git branch -M main 建立分支
+
 git remote add origin GitHub Repositories URL
 
-git push -u origin master
+git push -u origin main
+
+可能會遇到
+PS C:\OOP> git push -u origin main
+To https://github.com/Allenwang2004/OOP.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Allenwang2004/OOP.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details
+
+这个错误通常发生在您尝试将本地更改推送到远程分支时，但远程分支已经包含了您没有的新更改
+
+解決方式
+
+git pull origin main --allow-unrelated-histories
+
+git push origin main
+
 
 更新資料
-git pull origin master
+
+git pull origin main
 
 git add . //這是全部文件 add github.txt 這樣是單一文件
 
 git commit -m "Update files"
 
-git push origin master
+git push origin main
+
+git branch -m master //切換到master 分支
+
+git branch //查看當前的branch
 
