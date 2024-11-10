@@ -1,0 +1,2 @@
+cd D:\allen_trading_crypto
+python -m data_processing.data_processing_new

@@ -1,0 +1,1 @@
+datetime,symbol,_id,timestamp,exchange,inserted_datetime,interval,longAccount,long_OI,long_OI_change,long_OI_pct_change,sumOpenInterest,sumOpenInterestValue,sum_OI_change,sum_OI_pct_change,open,high,low,close,volume,price_change,price_pct_change

@@ -1,0 +1,6 @@
+{
+    "mongo_connection": {
+        "localhost": "mongodb://localhost:27020/",
+        "cloud": "mongodb+srv://doadmin:9R1c5BnV3Hd2648y@db-mongodb-sgp1-73058-backup-ca6968d5.mongo.ondigitalocean.com/admin?tls=true&authSource=admin&replicaSet=db-mongodb-sgp1-73058-backup"
+    }
+}
