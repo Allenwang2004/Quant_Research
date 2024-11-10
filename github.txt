@@ -45,3 +45,36 @@ git branch -m master //切換到master 分支
 
 git branch //查看當前的branch
 
+遇到大型文件
+
+
+使用 .gitignore 文件忽略它們
+
+ex:
+echo "CA4/imdb_dataset.pickle" >> .gitignore
+echo "CA4/tokenized_test.csv" >> .gitignore
+echo "CA4/tokenized_train.csv" >> .gitignore
+
+git rm --cached CA4/imdb_dataset.pickle CA4/tokenized_test.csv CA4/tokenized_train.csv
+git commit -m "Remove large files from tracking"
+
+git push origin main
+
+刪除
+Remove-Item -Recurse -Force .git
+
+
+假設是先創建了資料夾 才想要用repo
+
+git init
+
+和遠端倉庫連接
+git remote add origin https://github.com/Allenwang2004/Crypto_trading_system.git
+
+複製遠端倉庫內容
+git pull origin main --allow-unrelated-histories
+
+之後就一樣
+
+
+
