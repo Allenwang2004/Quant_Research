@@ -1,0 +1,14 @@
+{
+  "PIVOT_DATA_PATH": "./Data/Feature",
+  "TARGET_DATA_PATH": "./Data/target.pkl",
+  "OUTPUT_DATA_PATH": "./Results/Test.csv",
+  "DATE_FROM": "2014-01-01",
+  "DATE_TO": "2023-12-31",
+  "FIT_FUNC": "LS_Fitness",
+  "FIT_THRES": 0.15,
+  "AMT": 2,
+  "POP": 200,
+  "GEN": 3,
+  "multiple_factors_data": 0,
+  "CORR_threshold": 0.6
+}
