@@ -1,3 +1,0 @@
-api_key = 'GGvYCwdRCocweZYlVtRX3xMJpDmusxvgQ1bakhFys8V74ofaC58I4WwJCA6TXoEp'
-api_secert = 'WcpnsOkhWTOLPieXLFt5dhD53INvl5TFMFwIdMGuMIms3StkRs1AOgAzkhGauzsl'
-line_token = 'PSDVMa4amSJMAV4T5cGR7LkiA75oI6BHiQRFr2BDjcz'
